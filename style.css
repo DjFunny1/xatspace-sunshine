@@ -1,0 +1,827 @@
+body {
+    background: linear-gradient(145deg, rgba(123, 5, 186, 0.6) 0%, rgba(252, 59, 245, 0.636) 100%);
+    /* background-image: url('LINK DE IMAGEN DE FONDO'); */
+    color: #333;
+    font: 100% Lato, Arial, Sans Serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    margin-top: 6rem;
+}
+
+header {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+}
+
+.xatri {
+    background: rgba(253, 165, 250, 0.7);
+    padding: 0px 20px 0px 20px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: x-large;
+    align-content: center;
+    border-radius: 25px;
+    align-self: center;
+    margin-left: 10rem;
+}
+
+.xatri:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(253, 165, 250, 0);
+    animation: tilt-shaking 6s infinite;
+    border: 1px solid;
+    box-shadow: 1px 5px 5px 5px rgba(253, 165, 250, 0.6);
+}
+
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.avatar {
+    margin-left: 3rem;
+}
+
+.avatar:hover {
+    animation: tilt-shaking 2s infinite;
+}
+
+.flechas {
+    display: grid;
+    justify-content: end;
+}
+
+.flecha1 {
+    background: rgba(253, 165, 250, 0.6);
+    width: 21px;
+    height: 1rem;
+    border-radius: 15px;
+    margin-left: 27rem;
+    margin-right: 28rem;
+}
+.flecha2 {
+    background-color: rgba(253, 165, 250, 0.6);
+    width: 2rem;
+    height: 1.5rem;
+    border-radius: 15px;
+    margin-left: 24rem;
+    margin-right: 31rem;
+}
+.flecha3 {
+    background-color: rgba(253, 165, 250, 0.6);
+    width: 3rem;
+    height: 1.5rem;
+    border-radius: 15px;
+    margin-left: 20rem;
+    margin-right: 33rem;
+}
+
+.texto {
+    background: rgba(253, 165, 250, 0.6);
+    text-align: center;
+    align-content: center;
+    border-radius: 25px;
+    align-self: center;
+    width: 50rem;   
+}
+
+.texto:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(253, 165, 250, 0);
+    animation: tilt-shaking 15s infinite;
+    border: 1px solid;
+    box-shadow: 1px 5px 5px 5px rgba(253, 165, 250, 0.6);
+}
+
+.botones {
+    display: flex;
+    padding: 8px 2px 2px 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+.amigos {
+    justify-content: center;
+    margin-right: 0.5rem;
+    background-color: rgba(216, 130, 244, 0);
+    border-radius: 15px;
+}
+
+.amigos:hover {
+    background-color: rgba(230, 0, 255, 0.571);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50px;
+    border: solid 1px white;
+}
+
+.bff {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    justify-content: center;
+}
+
+.bff:hover {
+    background-color: rgba(230, 0, 255, 0.571);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50px;
+    border: solid 1px white;
+}
+
+.youtube {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    justify-content: center;
+}
+
+.youtube:hover {
+    background-color: rgb(255, 0, 0);
+    width: 3.5rem;
+    height: 3.2rem;
+    border-radius: 50px;
+    border: solid 1px white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+}
+
+.forum {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+    align-content: center;
+    color: rgb(113, 4, 141);
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 25px;
+    border: solid;
+    width: 6rem;
+    height: 2rem;
+}
+
+.forum:hover {
+    background-color: rgba(253, 84, 245, 0.7);
+    color: rgb(243, 199, 255)
+}
+
+.wiki {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    color: rgb(113, 4, 141);
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 25px;
+    border: solid;
+    width: 6rem;
+    height: 2rem;
+}
+
+.wiki:hover {
+    background-color: rgba(253, 84, 245, 0.7);
+    color: rgb(243, 199, 255)
+}
+
+.xatfexbots {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+    align-content: center;
+    color: rgb(113, 4, 141);
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 25px;
+    border: solid;
+    width: 7rem;
+    height: 2rem;
+}
+
+.xatfexbots:hover {
+    background-color: rgba(253, 84, 245, 0.7);
+    color: rgb(243, 199, 255)
+}
+
+.xatayuda {
+    margin-left: 1rem;
+    text-align: center;
+    align-content: center;
+    color: rgb(113, 4, 141);
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 25px;
+    border: solid;
+    width: 6rem;
+    height: 2rem;
+}
+
+.xatayuda:hover {
+    background-color: rgba(253, 84, 245, 0.7);
+    color: rgb(243, 199, 255)
+}
+
+.multimedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.shawn1 {
+    border-radius: 50px;
+}
+.shawn2 {
+    border-radius: 50px;
+}
+
+.slider {
+    position: relative;
+    display: grid;
+    width: 50vmin;
+    text-align: center;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    margin-bottom: 2rem;
+}
+
+.slides {
+    display: flex;
+    width: 130%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    width: 80%;
+    flex: 1 0 100%;
+}
+
+.slide img {
+    width: 80%;
+    display: block;
+}
+
+/* Controles del slider */
+
+.controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.control-left, .control-right {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/*Modal Amigos*/
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.0);
+    text-align: center;
+    overflow: hidden;
+}
+
+.modal-content {
+    background-color: rgba(255, 220, 237, 0.949);
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 42%;
+    height: 40%;
+    border-radius: 20px;
+}
+
+.tituloamistades {
+    display: inline-flex;
+}
+
+.modal-content h2 {
+    background-color: rgba(253, 165, 250, 0.7);
+    border-radius: 20px;
+    width: 20rem;
+}
+
+.modal-content p {
+    color: rgb(208, 113, 135);
+}
+
+.modal-content h2:hover {
+    box-shadow: 0px 5px 25px 0px rgba(227, 12, 220, 0.7);
+    color: rgb(208, 113, 135);
+    background-color: rgba(253, 165, 250, 0);
+    border: 1px solid;
+}
+
+#modalamigos {
+    background-color: rgba(0,0,0,0.0);
+    border: none;
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover, .close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.amigos3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.amigo1 {
+    border-radius: 50px;
+}
+.amigo1:hover {
+    animation: tilt-shaking 5s infinite;
+    box-shadow: 0px 5px 35px 0px rgba(227, 12, 220, 0.7);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 55px;
+}
+
+.amigo2 {
+    border-radius: 50px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.amigo2:hover {
+    animation: tilt-shaking 5s infinite;
+    box-shadow: 0px 5px 35px 0px rgba(227, 12, 220, 0.7);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 55px;
+}
+
+.amigo3 {
+    border-radius: 50px;
+}
+.amigo3:hover {
+    animation: tilt-shaking 5s infinite;
+    box-shadow: 0px 5px 35px 0px rgba(227, 12, 220, 0.7);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 55px;
+}
+
+
+/*Modal BFF*/
+
+.modal2 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.0);
+    text-align: center;
+}
+
+.modal-content2 {
+    background-color: rgba(255, 220, 237, 0.949);
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 52%;
+    height: fit-content;
+    border-radius: 20px;
+}
+
+.modal-content2 h2 {
+    background-color: rgba(253, 165, 250, 0.7);
+    border-radius: 20px;
+    width: 22rem;
+    text-align: center;
+    align-content: center;
+}
+
+.modal-content2 h2:hover {
+    box-shadow: 0px 5px 25px 0px rgba(227, 12, 220, 0.7);
+    color: rgb(208, 113, 135);
+    background-color: rgba(253, 165, 250, 0);
+    border: 1px solid;
+}
+
+#modalbff {
+    background-color: rgba(0,0,0,0.0);
+    border: none;
+}
+
+.close-btn2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn2:hover, .close-btn2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.gifdj {
+    display: inline-flex;
+}
+
+.titulobff {
+    margin-left: 2rem;
+    font-size: xx-large;
+}
+
+.bffavatar {
+    background-color: #33333300;
+}
+
+.bffavatar:hover {
+    box-shadow: 0px 5px 35px 0px rgba(227, 12, 220, 0.7);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 55px;
+}
+
+.bfffoto {
+    box-shadow: 0px 5px 15px 0px rgba(227, 12, 220, 0.7);
+    border-radius: 25px;
+}
+
+.bfffoto:hover {
+    animation: tilt-shaking 10s infinite;
+}
+
+.textbff {
+    font-weight: bold;
+}
+
+/*Modal Youtube*/
+
+.modal3 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.0);
+    text-align: center;
+}
+
+.modal-content3 {
+    background-color: rgba(255, 220, 237, 0.949);
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 52%;
+    height: fit-content;
+    border-radius: 20px;
+}
+
+.tituloyt {
+    display: grid;
+}
+
+.modal-content3 p {
+    background-color: rgba(253, 165, 250, 0.7);
+    border-radius: 20px;
+    width: 15rem;
+    text-align: center;
+    align-content: center;
+    font-size:x-large;
+    font-weight: bold;
+    justify-self: center;
+}
+
+.modal-content3 p:hover {
+    box-shadow: 0px 5px 25px 0px rgba(227, 12, 220, 0.7);
+    color: rgb(208, 113, 135);
+    background-color: rgba(253, 165, 250, 0);
+    border: 1px solid;
+}
+
+#modalyoutube {
+    background-color: rgba(0,0,0,0.0);
+    border: none;
+}
+
+.close-btn3 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn3:hover, .close-btn3:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* fondo burbujas*/
+
+#background-wrap {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+/* KEYFRAMES */
+
+@-webkit-keyframes animateBubble {
+0% {
+    margin-top: 1000px;
+}
+100% {
+    margin-top: -100%;
+}
+}
+
+@-moz-keyframes animateBubble {
+0% {
+    margin-top: 1000px;
+}
+100% {
+    margin-top: -100%;
+}
+}
+
+@keyframes animateBubble {
+0% {
+    margin-top: 1000px;
+}
+100% {
+    margin-top: -100%;
+}
+}
+
+@-webkit-keyframes sideWays {
+0% {
+    margin-left:0px;
+}
+100% {
+    margin-left:50px;
+}
+}
+
+@-moz-keyframes sideWays {
+0% {
+    margin-left:0px;
+}
+100% {
+    margin-left:50px;
+}
+}
+
+@keyframes sideWays {
+0% {
+    margin-left:0px;
+}
+100% {
+    margin-left:50px;
+}
+}
+
+/* ANIMATIONS */
+
+.x1 {
+-webkit-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+-moz-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+left: -5%;
+top: 5%;
+
+-webkit-transform: scale(0.6);
+-moz-transform: scale(0.6);
+transform: scale(0.6);
+}
+
+.x2 {
+-webkit-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+-moz-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+
+left: 5%;
+top: 80%;
+
+-webkit-transform: scale(0.4);
+-moz-transform: scale(0.4);
+transform: scale(0.4);
+}
+
+.x3 {
+-webkit-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+-moz-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+left: 10%;
+top: 40%;
+
+-webkit-transform: scale(0.7);
+-moz-transform: scale(0.7);
+transform: scale(0.7);
+}
+
+.x4 {
+-webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+-moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+
+left: 20%;
+top: 0;
+
+-webkit-transform: scale(0.3);
+-moz-transform: scale(0.3);
+transform: scale(0.3);
+}
+
+.x5 {
+-webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+-moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+
+left: 30%;
+top: 50%;
+
+-webkit-transform: scale(0.5);
+-moz-transform: scale(0.5);
+transform: scale(0.5);
+}
+
+.x6 {
+-webkit-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+-moz-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+left: 50%;
+top: 0;
+
+-webkit-transform: scale(0.8);
+-moz-transform: scale(0.8);
+transform: scale(0.8);
+}
+
+.x7 {
+-webkit-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+-moz-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+left: 65%;
+top: 70%;
+
+-webkit-transform: scale(0.4);
+-moz-transform: scale(0.4);
+transform: scale(0.4);
+}
+
+.x8 {
+-webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+-moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+
+left: 80%;
+top: 10%;
+
+-webkit-transform: scale(0.3);
+-moz-transform: scale(0.3);
+transform: scale(0.3);
+}
+
+.x9 {
+-webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+-moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+
+left: 90%;
+top: 50%;
+
+-webkit-transform: scale(0.6);
+-moz-transform: scale(0.6);
+transform: scale(0.6);
+}
+
+.x10 {
+-webkit-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+-moz-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+left: 80%;
+top: 80%;
+
+-webkit-transform: scale(0.3);
+-moz-transform: scale(0.3);
+transform: scale(0.3);
+}
+
+/* OBJECTS */
+
+.bubble {
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+
+-webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+-moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+
+height: 200px;
+position: absolute;
+width: 200px;
+}
+
+.bubble:after {
+background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 70%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.5)), color-stop(70%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* IE10+ */
+background: radial-gradient(ellipse at center,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+
+-webkit-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+-moz-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+
+content: "";
+height: 180px;
+left: 10px;
+position: absolute;
+width: 180px;
+}
+
+.ul, .li, footer:hover {
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+}
+
+footer {
+    color: rgb(88, 88, 88);
+    font-weight: bold;
+    background: black;
+    width: 8rem;
+    border-radius: 15px;
+    text-align: center;
+    animation: myfirst 5s linear 5s infinite alternate;
+    position: relative;
+}
+
+
+@keyframes myfirst {
+    0%   {background-color:rgba(255, 0, 0, 0.500); left:0px; top:0px;}
+    25%  {background-color:rgba(255, 0, 251, 0.500); left:100px; top:0px;}
+    50%  {background-color:rgba(187, 0, 255, 0.500); left:100px; top:000px;}
+    75%  {background-color:rgba(255, 255, 255, 0.5); left:0px; top:000px;}
+    100% {background-color:rgba(255, 0, 0, 0.500); left:0px; top:0px;}
+}
+
+/*MEDIA QUERYS */
+@media screen and (max-width: 992px) {
+
+}
